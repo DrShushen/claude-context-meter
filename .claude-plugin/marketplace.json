@@ -1,0 +1,14 @@
+{
+  "name": "claude-context-meter",
+  "owner": { "name": "Evgeny Saveliev" },
+  "metadata": {
+    "description": "Marketplace for the context-meter plugin, which lets Claude check how full its context window is."
+  },
+  "plugins": [
+    {
+      "name": "context-meter",
+      "source": "./",
+      "description": "Lets Claude check how full its context window is and gives it a heads-up as the context approaches the auto-compaction threshold."
+    }
+  ]
+}
